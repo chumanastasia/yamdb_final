@@ -44,6 +44,7 @@ jobs:
         # Пуш образа в Docker Hub
         uses: docker/build-push-action@v2
         with:
+          file: ./api_yamdb/Dockerfile
           push: true
           tags: chumanastasia/docker_sprint_16:v1.10.2022
 #  deploy:
