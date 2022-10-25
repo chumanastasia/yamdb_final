@@ -1,4 +1,3 @@
-
 # Проект yamdb_final
 ![example event parameter](https://github.com/chumanastasia/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?event=push)
 ## Описание  
@@ -45,7 +44,7 @@ docker-compose exec web python manage.py migrate
 docker-compose exec web python manage.py createsuperuser
 docker-compose exec web python manage.py collectstatic --no-input
 ```
-**Все готово! Проверить работоспособность сайта можно в браузере `http://localhost/admin/ `
+**Все готово! Проверить работоспособность сайта можно в браузере `http://51.250.16.11/admin/ ` (сейчас сервер выключен)
 Авторизуйтесь под аккаунтом суперпользователя и убедитесь, что миграции прошли
 успешно!**
 
